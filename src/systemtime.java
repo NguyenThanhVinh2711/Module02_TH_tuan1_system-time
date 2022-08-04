@@ -1,2 +1,8 @@
-package PACKAGE_NAME;public class systemtime {
+import java.util.Date;
+
+public class systemtime {
+    public static void main(String[] args) {
+        Date now = new Date();
+        System.out.println(now);
+    }
 }
